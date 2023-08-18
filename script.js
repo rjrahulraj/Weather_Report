@@ -38,13 +38,13 @@ const getWeather =(city) =>{
 		
 		
 		// cloud_pct.innerHTML = response.cloud_pct
-		temp.innerHTML = response.temp
-		feels_like.innerHTML = response.feels_like
-		humidity.innerHTML = response.humidity
-		min_temp.innerHTML = response.min_temp
-		max_temp.innerHTML = response.max_temp
-		wind_speed.innerHTML = response.wind_speed
-		wind_degrees.innerHTML = response.wind_degrees
+		temp.innerHTML = response.temp+"℃"
+		feels_like.innerHTML = response.feels_like+"℃"
+		humidity.innerHTML = response.humidity +"%"
+		min_temp.innerHTML = response.min_temp+"℃"
+		max_temp.innerHTML = response.max_temp+"℃"
+		wind_speed.innerHTML = response.wind_speed +" Km/hr"
+		wind_degrees.innerHTML = response.wind_degrees +"°"
 		sunrise.innerHTML = response.sunrise
 		sunset.innerHTML = response.sunset
 		
@@ -83,14 +83,14 @@ const weatherMumbai=()=>{
 		// console.log(response)
 		
 		
-		cloud_pctM.innerHTML = response.cloud_pct
-		tempM.innerHTML = response.temp
-		feels_likeM.innerHTML = response.feels_like
-		humidityM.innerHTML = response.humidity
-		min_tempM.innerHTML = response.min_temp
-		max_tempM.innerHTML = response.max_temp
-		wind_speedM.innerHTML = response.wind_speed
-		wind_degreesM.innerHTML = response.wind_degrees
+		cloud_pctM.innerHTML = response.cloud_pct+"%"
+		tempM.innerHTML = response.temp+"℃"
+		feels_likeM.innerHTML = response.feels_like+"℃"
+		humidityM.innerHTML = response.humidity+"%"
+		min_tempM.innerHTML = response.min_temp+"℃"
+		max_tempM.innerHTML = response.max_temp+"℃"
+		wind_speedM.innerHTML = response.wind_speed+"km/hr"
+		wind_degreesM.innerHTML = response.wind_degrees+"°"
 		sunriseM.innerHTML = response.sunrise
 		sunsetM.innerHTML = response.sunset
 		
@@ -123,14 +123,14 @@ const weatherKolkata=()=>{
 		// console.log(response)
 		
 		
-		cloud_pctK.innerHTML = response.cloud_pct
-		tempK.innerHTML = response.temp
-		feels_likeK.innerHTML = response.feels_like
-		humidityK.innerHTML = response.humidity
-		min_tempK.innerHTML = response.min_temp
-		max_tempK.innerHTML = response.max_temp
-		wind_speedK.innerHTML = response.wind_speed
-		wind_degreesK.innerHTML = response.wind_degrees
+		cloud_pctK.innerHTML = response.cloud_pct+"%"
+		tempK.innerHTML = response.temp+"℃"
+		feels_likeK.innerHTML = response.feels_like+"℃"
+		humidityK.innerHTML = response.humidity+"%"
+		min_tempK.innerHTML = response.min_temp+"℃"
+		max_tempK.innerHTML = response.max_temp+"℃"
+		wind_speedK.innerHTML = response.wind_speed+"km/hr"
+		wind_degreesK.innerHTML = response.wind_degrees+"°"
 		sunriseK.innerHTML = response.sunrise
 		sunsetK.innerHTML = response.sunset
 		
@@ -164,14 +164,14 @@ const weatherBangalore=()=>{
 		// console.log(response)
 		
 		
-		cloud_pctB.innerHTML = response.cloud_pct
-		tempB.innerHTML = response.temp
-		feels_likeB.innerHTML = response.feels_like
-		humidityB.innerHTML = response.humidity
-		min_tempB.innerHTML = response.min_temp
-		max_tempB.innerHTML = response.max_temp
-		wind_speedB.innerHTML = response.wind_speed
-		wind_degreesB.innerHTML = response.wind_degrees
+		cloud_pctB.innerHTML = response.cloud_pct+"%"
+		tempB.innerHTML = response.temp+"℃"
+		feels_likeB.innerHTML = response.feels_like+"℃"
+		humidityB.innerHTML = response.humidity+"%"
+		min_tempB.innerHTML = response.min_temp+"℃"
+		max_tempB.innerHTML = response.max_temp+"℃"
+		wind_speedB.innerHTML = response.wind_speed+"km/hr"
+		wind_degreesB.innerHTML = response.wind_degrees+"°"
 		sunriseB.innerHTML = response.sunrise
 		sunsetB.innerHTML = response.sunset
 		
@@ -203,14 +203,14 @@ const weatherRanchi=()=>{
 		// console.log(response)
 		
 		
-		cloud_pctR.innerHTML = response.cloud_pct
-		tempR.innerHTML = response.temp
-		feels_likeR.innerHTML = response.feels_like
-		humidityR.innerHTML = response.humidity
-		min_tempR.innerHTML = response.min_temp
-		max_tempR.innerHTML = response.max_temp
-		wind_speedR.innerHTML = response.wind_speed
-		wind_degreesR.innerHTML = response.wind_degrees
+		cloud_pctR.innerHTML = response.cloud_pct+"%"
+		tempR.innerHTML = response.temp+"℃"
+		feels_likeR.innerHTML = response.feels_like+"℃"
+		humidityR.innerHTML = response.humidity+"%"
+		min_tempR.innerHTML = response.min_temp+"℃"
+		max_tempR.innerHTML = response.max_temp+"℃"
+		wind_speedR.innerHTML = response.wind_speed+"km/hr"
+		wind_degreesR.innerHTML = response.wind_degrees+"°"
 		sunriseR.innerHTML = response.sunrise
 		sunsetR.innerHTML = response.sunset
 		
